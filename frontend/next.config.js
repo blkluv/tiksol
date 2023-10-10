@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  distDir: '.next',
   env: {
     REACT_APP_CLUSTER: process.env.REACT_APP_CLUSTER,
   },
